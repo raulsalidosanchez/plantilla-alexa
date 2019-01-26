@@ -1,0 +1,31 @@
+{
+    "manifest": {
+      "publishingInformation": {
+        "locales": {
+          "es-ES": {
+            "summary": "Sample Short Description",
+            "examplePhrases": [
+              "Alexa open skill",
+              "hello",
+              "help"
+            ],
+            "name": "skill",
+            "description": "Sample Full Description"
+          }
+        },
+        "isAvailableWorldwide": true,
+        "testingInstructions": "Sample Testing Instructions.",
+        "category": "KNOWLEDGE_AND_TRIVIA",
+        "distributionCountries": []
+      },
+      "apis": {
+        "custom": {
+          "endpoint": {
+            "sourceDir": "lambda/custom",
+            "uri": "ask-custom-skill"
+          }
+        }
+      },
+      "manifestVersion": "1.0"
+    }
+  }
