@@ -1,0 +1,14 @@
+{
+  "name": "juego-alexa",
+  "version": "1.0.0",
+  "description": "juego adivina un número",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raúl Salido Sánchez",
+  "license": "ISC",
+  "dependencies": {
+    "ask-sdk": "^2.3.0"
+  }
+}
